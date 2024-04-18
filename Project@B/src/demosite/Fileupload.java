@@ -18,20 +18,16 @@ public class Fileupload {
 		driver.manage().window().maximize();
 		//step4:Get the URL
 		driver.get("https://monkeylearn.com/word-cloud");
-
-		// step5:upload resume through send keys  ##not work out
-		//WebElement uploadresume=  
+		// step5:upload resume through Apachi po Tool
 		driver.findElement(By.className("Form-page-header-label")).click();
-		//uploadresume.click();
 		//# scroll down syntax
 				JavascriptExecutor js = (JavascriptExecutor) driver;
 				js.executeScript("window.scrollBy(0,400)", "");
 Runtime.getRuntime().exec("C:\\Users\\USER\\Downloads\\Tools\\Autoit-v3-setup\\autoA.exe");
 						
-				
-
+			
 }
-// covered thinks are File uploaded 
+// // covered thinks are File uploaded  through Apachi po Tool and scroll down added
 }
 
 
