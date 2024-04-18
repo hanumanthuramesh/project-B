@@ -27,7 +27,7 @@ public class Fileupload {
 						
 			
 }
-// // covered thinks are File uploaded  through Apachi po Tool and scroll down added
+// // covered thinks are File uploaded  through Auto IT framework Tool and scroll down added
 }
 
 
