@@ -21,9 +21,9 @@ public class Fileupload {
 		// step5:upload resume through Apachi po Tool
 		driver.findElement(By.className("Form-page-header-label")).click();
 		//# scroll down syntax
-				JavascriptExecutor js = (JavascriptExecutor) driver;
-				js.executeScript("window.scrollBy(0,400)", "");
-Runtime.getRuntime().exec("C:\\Users\\USER\\Downloads\\Tools\\Autoit-v3-setup\\autoA.exe");
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,400)", "");
+                Runtime.getRuntime().exec("C:\\Users\\USER\\Downloads\\Tools\\Autoit-v3-setup\\autoA.exe");
 						
 			
 }
