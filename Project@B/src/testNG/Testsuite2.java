@@ -27,7 +27,7 @@ public class Testsuite2 {
 		 driver.close();	
 		
 	}
-	//covered Thinks Testsuite run successfully
+	//covered Thinks Testsuite Run successfully
 }
 
 
